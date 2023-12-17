@@ -1,1 +1,34 @@
-/* место для вашего кода */
+body {
+    background-color: #fff;
+}
+
+header {
+    margin: 92px 24px 96px;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+}
+
+.header__menu-item-first {
+    list-style: none;
+}
+
+.header__menu-item {
+    list-style: circle outside;
+}
+
+.header_info-block {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 3px;
+}
